@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go food !!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="first">
+    <!-- header containing four buttons for home menu contactus and aboutus-->
+    <nav class="header">
+        <button class="pages" onclick="location.href='./Home.html';">Home</button>
+        <button class="pages" onclick="location.href='./Menu.html';">Menu</button>
+        <button class="pages" onclick="location.href='./ContactUs.html';">Contact Us</button>
+        <button class="pages" onclick="location.href='./AboutUs.html';">About Us</button>
+    </nav>
+
+    <br>
+    <!--form with fields like Name Email Message and submit button-->
+    <div class="form_parent">
+    <form class="Form">
+        <h3>Contact Us</h3>
+        <br>
+        <label class="Labels">Full Name:</label>
+        <input class="Input" type="text" placeholder="Name" required>
+        <br>
+        <label class="Labels">Email:</label>
+        <input class="Input" type="email" placeholder="Email" required>
+        <br>
+        <label class="Labels">Phone Number:</label>
+        <input class="Input" type="tel" placeholder="Phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br>
+        <label class="Labels">City:</label>
+        <input class="Input" type="text" placeholder="CIty name" required>
+        <br>
+        <label class="Labels">Message:</label>
+        <textarea class="Input" placeholder="Message" required></textarea>
+        <br>
+        <input class="Button" type="submit" placeholder="Submit">
+
+    </form>
+    </div>
+    
+</body>
+</html>

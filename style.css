@@ -1,0 +1,159 @@
+/* transition on hovering the food items in menu page*/
+@keyframes transit{
+    from{background-color: rgb(245, 179, 38);}
+    to{background-color: rgb(99, 245, 216);}
+}
+/*menu page contactus page and home page background photo*/
+#first{
+    background-image: url(photos/photo1.jpg) ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size: 100%;
+}
+/* header in every page */
+.header{
+    background-color: bisque;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin:10px;
+    padding: 10px;
+
+}
+/* buttons to different pages */
+.pages{
+    border: orange solid;
+    margin:10px;
+    padding:10px;
+    width:25%;
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;/*font family*/
+    color: brown;
+    font-size: 35px;
+}
+/* on hovering buttons*/
+.pages:hover{
+    background-color: rgb(245, 179, 38);
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    color:brown;
+    font-size: 45px;
+    background-color: bisque;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+span:hover{
+    background-color:rgb(245, 179, 38) ;
+}
+
+.super{
+    display:flex;
+    flex-direction: column;
+}
+
+.parent{
+    display:flex;
+    flex-direction: column;
+}
+/* food categories */
+.food{
+    width:100%;
+    color:brown;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/*font family*/
+    display: flex;
+    justify-content: center;
+    border: orange solid ;
+    font-size: 25px;
+    background-color: bisque;
+}
+.food:hover{
+    background-color: rgb(245, 179, 38);
+}
+/*flex background in the form of gradients*/
+.foodImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(to right,rgb(238, 172, 50),rgb(223, 69, 69));
+}
+/*images and titles*/
+.foodImagesAndTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.foodTitle{
+    width:100%;
+    color:brown;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/*font family*/
+    display: flex;
+    justify-content: center;
+    border: orange solid ;
+    font-size: 25px;
+    background-color: bisque;  
+}
+/*transition on food title hover*/
+.foodTitle:hover{
+    animation-name: transit;
+    animation-duration: 2s;
+}
+
+img{
+    width:200px;
+    height:200px;
+}
+
+.form_parent{
+    display: flex;
+    justify-content: center;
+}
+/*form for contact us page*/
+.Form{
+    width:25%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h3{
+    font-size: 45px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;/*font family*/
+}
+.Labels{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;/*font family*/
+}
+
+.Input{
+    height:25px;
+}
+
+.AboutUs{
+    width:100%;
+    border:orange solid;
+    color:brown;
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;/*font family*/
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    margin:10px;
+}
+/*background style effect by gradients*/
+.info{
+    margin:10px;
+    background-image: linear-gradient(to right,rgb(238, 172, 50),rgb(223, 69, 69));
+
+}
+/*background style effect by gradients*/
+#second{
+    background-image: linear-gradient(to right,rgb(128, 142, 27),rgb(51, 247, 51));
+}
